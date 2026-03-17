@@ -90,7 +90,7 @@ const Hero = () => {
         {/* Floating Cards (Desktop Only - Hidden on Mobile) */}
         <div
           ref={cardsRef}
-          className="hidden lg:flex absolute bottom-[4%] lg:left-[48%] xl:left-[44%] -translate-x-1/2 w-[360px] xl:w-[420px] z-30 drop-shadow-[0_40px_80px_rgba(0,0,0,0.3)] pointer-events-none"
+          className="hidden lg:flex absolute bottom-[-2%] lg:left-[48%] xl:left-[44%] -translate-x-1/2 w-[280px] xl:w-[320px] z-30 drop-shadow-[0_40px_80px_rgba(0,0,0,0.3)] pointer-events-none"
         >
           <img
             src="/trinity-cards-stack.png"
